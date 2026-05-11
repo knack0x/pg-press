@@ -6,3 +6,4 @@ pg-press.db
 *\.sqlite*
 /.*.vim
 output.css
+.DS_Store
