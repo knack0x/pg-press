@@ -15,7 +15,7 @@ INSTALL_PATH := /usr/local/bin
 SERVICE_FILE := $(HOME)/Library/LaunchAgents/com.$(BINARY_NAME).plist
 
 APP_DATA := $(HOME)/Library/Application Support/$(BINARY_NAME)
-LOG_FILE := $(APP_DATA)/$(BINARY_NAME).log
+LOG_FILE := $(HOME)/Library/Logs/$(BINARY_NAME).log
 
 clean:
 	git clean -xfd
